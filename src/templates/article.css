@@ -1,0 +1,6 @@
+.username {
+  display: inline;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: black;
+}

@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+.gatsby-image-wrapper {
+  margin-bottom: 0px !important;
+}
+
+.left-img {
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 20px;
+  max-width: 200px;
+}
+
+.right-content {
+  flex-grow: 4;
+  height: 90px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
